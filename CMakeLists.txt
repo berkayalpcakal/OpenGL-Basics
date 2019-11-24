@@ -45,7 +45,10 @@ add_executable(project
 	project/src/Window.cpp
 	project/src/Camera.cpp
 	project/src/Texture.cpp
+	project/src/Light.cpp
+	project/src/Material.cpp
 )
+
 target_link_libraries(project
 	${ALL_LIBS}
 )
